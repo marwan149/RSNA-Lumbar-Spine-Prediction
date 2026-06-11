@@ -1,0 +1,24 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Data and model output
+*.csv
+*.pth
+*.pt
+output/
+submission.csv
+
+# Virtual environments
+venv/
+.env/
+.env
+
+# Editor directories
+.vscode/
+.idea/
