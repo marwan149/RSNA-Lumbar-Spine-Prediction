@@ -1,7 +1,4 @@
 # RSNA Lumbar Spine Prediction
-
-This repository converts the notebook inference workflow from `rsna-lumbar-spine-prediction.ipynb` into a reusable Python package and CLI-based repo structure.
-
 ## Repository structure
 
 - `src/rsna_lumbar_spine_prediction/`: package source code
