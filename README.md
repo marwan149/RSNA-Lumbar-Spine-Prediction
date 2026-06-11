@@ -57,10 +57,5 @@ docker run --rm -v /path/to/data:/data -v /path/to/checkpoints:/checkpoints rsna
 ```
 
 ## Notes
-
-- The package expects the Kaggle-style dataset layout:
-  - `test_series_descriptions.csv`
-  - `sample_submission.csv`
-  - `test_images/<study_id>/<series_id>/*.dcm`
 - The model pipeline supports ensemble inference with multiple checkpoints.
-- Output is saved to the file specified by `--output`.
+
